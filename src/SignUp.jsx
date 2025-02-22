@@ -17,7 +17,7 @@ function SignUp() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3001/signup", {
+      const response = await fetch("https://nec-trial-one.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
