@@ -20,7 +20,7 @@ function SignUp() {
       console.log("Form Data:", formData);
 
       const response = await fetch(
-        "https://nec-trial-one.onrender.com/signup/signup",
+        "https://nec-trial-one.onrender.com/signup",
         // "http://localhost:3001/signup/signup",
 
         {
